@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  background-image: url(/img/Tela.png);
+  display: grid;
+  background-size: cover;
+}
+
+header {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 2rem;
+  color: #ffff;
+}
+
+.home {
+  font-size: 2rem;
+  color: #fff;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  height: auto;
+}
+.m{
+  font-weight: bold;
+  display: flex;
+  
+}
+/* .carregar_todo_header{
+    display: flex;
+} */
