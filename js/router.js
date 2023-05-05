@@ -2,7 +2,7 @@
 
 const routes ={
     // '/' : '/pages/home.html',
-    // '/vermelho' : '/pages/vermelho.html',
+    '/nome-do-personagens' : '/pages/NomeDoPersonagens.html',
     '/Personagens' : '/pages/Personagens.html'
 }
 
