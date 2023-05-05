@@ -28,17 +28,20 @@ header {
   font-family: Arial, Helvetica, sans-serif;
 }
 main{
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: baseline;
   height: auto;
 }
-.subtitle{
-  padding: 16px;
+h2{
+  /* justify-content: center;
+  align-items: center; */
+  padding: 20px;
   font-weight: normal;
   font-size: 2rem;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
   /* display: flex; */ 
 }
 p{
@@ -46,6 +49,8 @@ p{
   margin: auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
+  display: flex;
+  align-items: baseline;
 }
 a{
   font-weight: bold;
