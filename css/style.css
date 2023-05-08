@@ -32,6 +32,11 @@ main{
   justify-content: center;
   align-items: baseline;
   height: auto;
+
+}
+.image{
+  border-radius: 50%;
+  
 }
 h2{
   /* justify-content: center;
