@@ -2,12 +2,14 @@
 
 const routes ={
     '/' : '/pages/index.html',
-    '/paginadopersonagens' : '/pages/nomedospersonagens.html',
+    '/nomedospersonagens' : '/pages/nomedospersonagens.html',
     '/personagens' : '/pages/personagens.html'
 }
 
 const route = async () =>{
     window.event.preventDefault()
+
+    console.log(window.event.target)
     window.history.pushState({}, "", window.event.target.href)
 
 const path = window.location.pathname

@@ -34,6 +34,23 @@ main{
   height: auto;
 
 }
+.conteudo{
+  position: absolute;
+  padding: 20px;
+  background-color: #000;
+
+}
+.container-personagem{
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+.link-image{
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
 .image{
   border-radius: 50%;
   
