@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/container.css">
-    <script src="./js/app.js" defer type="module"></script>
-    <script src="./js/card.js"></script>
-    <script src="./js/character.js"></script>
-    <!-- <script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/container.css">
+  <script src="./js/app.js" defer type="module"></script>
+  <script src="./js/card.js"></script>
+  <script src="./js/character.js"></script>
+  <!-- <script>
       async function getContent(){
        const response = await fetch('https://demon-slayer-api.onrender.com/v1')
       }
       getContent()
        </script> -->
-    <title>AnimeZone</title>
-  </head>
-  <body>
-    <header>
-      <img class="logo" src="./img/logo.png" alt="Website Logo" />
-      <h1 class="title">AnimeZone</h1>
-      <a class="home" href="./index.html">Home</a>
-    </header>
-    <main id="root">
-        <h2 class="subtitle">Personagens</h2>
-        <section class="conteudos">
+  <title>AnimeZone</title>
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="./img/logo.png" alt="Website Logo" />
+    <h1 class="title">AnimeZone</h1>
+    <a class="home" href="./index.html">Home</a>
+  </header>
+  <main id="root">
+    <h2 class="subtitle">Personagens</h2>
+
+    <!-- CARD -->
+    <div class="cards">
+    <div class="card">
+      <a href="/nomedospersonagens" onclick="route()" class="link-image"></a>
+      <img class="character" id ="image" src="./img/Mitsuri_Anime_Profile.webp" alt="Mitsuri">
+
+    </div>
+    </div>
+
+
+
+    <!-- <section class="conteudos">
           <article class="card" >
             <div class="container-personagem">
             <a href="/nomedospersonagens" onclick="route()"class="link-image" > 
@@ -36,13 +50,14 @@
             </a>
           </div>
             <!-- <h3 id="name" class="nome">Mitsuri Kanroji</h3> -->
-          </article>
-      </section>
-        <p>Veja todos os <a href="/personagens" onclick="route()"> Personagens</a>.</p>
-    </main>
-    
-  </body>
-  <footer>
-    <p>Copyright ©️ | Todos os Direitos Reservados | Evellyn da Silva</p>
-  </footer>
+    </article>
+    </section> -->
+    <p>Veja todos os <a href="/personagens" onclick="route()"> Personagens</a>.</p>
+  </main>
+
+</body>
+<footer>
+  <p>Copyright ©️ | Todos os Direitos Reservados | Evellyn da Silva</p>
+</footer>
+
 </html>

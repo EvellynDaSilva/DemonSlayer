@@ -48,13 +48,43 @@ main{
 .link-image{
   position: absolute;
   display: block;
-  height: 100%;
-  width: 100%;
+  height: 16%;
+  width: 16%;
+  border-radius: 39%;
+  z-index: 1;
 }
 .image{
   border-radius: 50%;
   
 }
+/* CARD */
+.card{
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  background-color: deeppink;
+  border-radius: 40%;
+}
+
+.nameCharacter{
+  font-size: 25px;
+  color: #fff;
+  
+  
+}
+.character{
+  height: 100px;
+  margin: 25px;
+  border-radius: 40%;
+  z-index: 0;
+
+  
+
+  
+}
+
+
+
 h2{
   /* justify-content: center;
   align-items: center; */
