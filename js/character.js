@@ -1,21 +1,36 @@
 'use strict'
+
 const cards = document.querySelector('.cards')
 
-// fetch('https://demon-slayer-api.onrender.com/v1')
+fetch('https://demon-slayer-api.onrender.com/v1')
+    .then(response => response.json())
+    .then(data => data.forEach((personagem, indice) => {
 
- //Criando um card padrão
- const card = document.createElement('div') 
- card.classList.add('card')
- console.log(card)
+        //  //Criando um card padrão
+        const card = document.createElement('div')
+        card.classList.add('card')
+        console.log(card)
 
-//Colocando cada card dentro da div cards
-cards.appendChild(card)
-
-
+        // //Colocando cada card dentro da div cards
+        cards.appendChild(card)
 
 
 
- //Preenchendo os dados de cada personagem
+
+
+        //  //Preenchendo os dados de cada personagem
+        card.innerHTML = `
+        <a href="/nomedospersonagens" onclick="route()" class="link-image"></a>
+        <img class="character" id ="image" src="./img/${personagem.image}" alt="">
+        `
+
+
+
+
+
+
+    })
+    )
 
 
 

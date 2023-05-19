@@ -1,12 +1,12 @@
 'use strict'
 
-const personagens = () => {
-    alert ("Oieee")
-}
+// const personagens = () => {
+//     alert ("Oieee")
+// }
 
 
 
-document.getElementById('image').addEventListener('click', personagens)
+// document.getElementById('image').addEventListener('click', personagens)
 
 
 
