@@ -1,30 +1,14 @@
 'use strict'
 
-// const personagens = () => {
-//     alert ("Oieee")
-// }
+class cards extends HTMLElement{
 
+    constructor(){
+        super()
 
-
-// document.getElementById('image').addEventListener('click', personagens)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// export const card = async() => {
-//     const url = `{https://demon-slayer-api.onrender.com/v1/`
-//     const response = await fetch(url)
-//     const card = await response.json()
-
-//     return card
-// }
+        this.shadow = this.attachShadow({ mode: 'open'})
+        this.photo =null
+    }
+    // static get observedAttributes() {
+    //     return ['photo']
+    // }
+}
