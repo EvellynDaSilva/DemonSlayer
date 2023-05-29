@@ -1,6 +1,8 @@
 body {
-  height: 100vh;
   background-image: url(/img/Tela.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background-size: cover;

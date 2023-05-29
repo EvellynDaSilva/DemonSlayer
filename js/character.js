@@ -25,7 +25,13 @@ console.log(personagens)
         const imagem = document.createElement('img')
         imagem.classList.add('character')
         imagem.src = personagens.image
-        card.append(imagem)
+        
+
+        const nameCharacter = document.createElement('p')
+        nameCharacter.classList.add('nome_character')
+        nameCharacter.textContent = personagens.nameCharacter
+        card.append(imagem, nameCharacter)
+
         return card
  }
 
