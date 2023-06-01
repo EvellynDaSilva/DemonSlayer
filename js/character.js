@@ -15,6 +15,19 @@ console.log(personagens)
 
     card.replaceChildren(...cardsJSON)
  }
+        // styles() {
+        //     const css = document.createElement('style')
+        //     css.textContent =`
+
+        //     *{
+        //         margin: 0;
+        //         padding: 0;
+        //         box-sizing: border-box;
+        //     }
+
+
+        //     `
+        // }
 
  const criarCard = (personagens) => {
     console.log(personagens.image)
